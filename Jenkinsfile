@@ -1,13 +1,13 @@
 pipeline {
-   agent any
-  
-   stages{
-      stage('pipeline')
-        steps{
-              echo "this is main multibranch"
-             } 
-         }
-  }
-
-  
+    agent any
+    
+    stages {
+       
+        stage('Create Directory') {
+            steps {
+                echo "this is main branch
+            }
+        }
+    }
+}
 
