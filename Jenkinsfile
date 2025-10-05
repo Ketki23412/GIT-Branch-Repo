@@ -1,12 +1,12 @@
 pipeline {
-  agent any
+   agent any
     
-        stages{
-          stage('pipeline')
-            steps{
+   stages{
+     stage('pipeline')
+        steps{
               echo "this is v1 multibranch"
-            }
-        }
+             }
+         }
   
 }
   
