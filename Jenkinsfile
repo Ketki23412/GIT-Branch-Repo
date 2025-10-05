@@ -5,7 +5,7 @@ pipeline {
        
         stage('Create Directory') {
             steps {
-                echo "this is main branch
+                echo "this is main branch"
             }
         }
     }
