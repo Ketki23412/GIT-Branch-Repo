@@ -4,7 +4,7 @@ pipeline {
         stages{
           stage('pipeline')
             steps{
-              echo "this is new multibranch"
+              echo "this is main multibranch"
             }
         }
   }
