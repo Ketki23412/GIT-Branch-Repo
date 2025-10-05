@@ -1,7 +1,7 @@
 pipeline {
    agent any
   
-  stages{
+   stages{
       stage('pipeline')
         steps{
               echo "this is main multibranch"
